@@ -1,0 +1,103 @@
+header
+{
+
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	left: 0;
+	right: 0;
+	height: 120px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 20px;
+	padding-right: 50px;
+	background: transparent;
+	transition: all ease 0.3s;
+
+
+
+}
+
+
+.black
+{
+
+	/*background: #141414;*/
+	background: #222;
+	transition: all ease 0.3s;
+
+
+}
+
+
+
+.header-logo
+{
+
+
+	height: 140px;
+	padding-top: 5px;
+
+
+}
+
+.header-logo img
+{
+
+
+	height: 100%;
+
+}
+
+.header-user
+{
+
+
+	height: 50px;
+
+}
+
+.header-user img
+{
+
+
+	height: 100%;
+	border-radius: 3px;
+
+}
+
+
+@media (max-width: 760px)
+{
+
+
+	.header-logo
+	{
+
+
+	height: 80px;
+	padding-top: 5px;
+
+
+	}
+
+	.header-user
+	{
+
+
+	height: 30px;
+
+	}
+
+	header
+	{
+
+		height: 100px;
+
+	}
+
+
+
+}
+
